@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        
+     
+    </head>
+    <body>
+        <!--side bar  -->
+        <div class="side-bar " id="sideBar">
+            <div class="contient-bar d-flex justify-content-between flex-column" id="contientBar">
+                <div class="manu-bar p-3">
+                    <p class="manuShowUp" id="nowPlaying">Now playing</p>
+                    <p class="manuShowUp" id="popular">Popular</p>
+                    <p class="manuShowUp" id="topRated">Top Rated</p>
+                    <p class="manuShowUp" id="trending">Trending</p>
+                    <p class="manuShowUp" id="upcoming">Upcoming</p>
+                    <p class="manuShowUp"><a href="#contact">Contact Us</a> </p>
+                </div>
+                <div class="social-link align-content-end p-3">
+                    <ul>
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa fa-globe"></i></li>
+                    </ul>
+                    <p>Copyright Â© 2019 All Rights Reserved.</p>
+                </div>
+            </div>
+            <div class="tools-bar d-flex justify-content-between flex-column" id="toolsBar">
+                <div class="img-icon mx-auto py-3">
+                    <img src="weather1.png" alt="">
+                </div>
+                <div class="closeOpen mx-auto " id="closeOpen">
+                    <i class="fa fa-close " id="close"></i>
+                    <span class="  fw-bolder" id="open">☰ </span>
+                </div>
+                <div class="two-icons-share mx-auto py-3">
+                    <div>
+                        <i class="fa fa-globe pb-3"></i>
+                    </div>
+                    <div>
+                        <i class="fa fa-share-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section home -->
+        <div class="movie-section">
+            <div class="container p-5">
+                <div class="row d-flex mb-5 w-85 mx-auto">
+                    <div class="col-md-6">
+                        <dive class="search-movie-dataBase ">
+                            <input id="allMovies" class=" newStyle mx-auto" placeholder="get movies by word...">
+                        </dive>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="search-movie-page ">
+                            <input id="word" class=" newStyle mx-auto"  placeholder="search...">
+                        </div>
+                    </div>
+                </div>
+            
+               <div class="row gy-4" id="DataInput">
+                <div class="col-md-4">
+                    <div class="movie-card">
+                        <div class="posterMovie">
+                            <img src="doctor_strange_in_the_multiverse_of_madness_ver14.jpg" class="imgPoster w-100" alt="">
+                            <div class="movieDetailes text-center">
+                                <div>
+                                    <h2 class="titleName">doctor string</h2>
+                                    <p class="overView">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quaerat repudiandae dignissimos est deserunt officiis obcaecati ipsam ab atque temporibus molestias, quia et voluptates possimus!</p>
+                                    <p class="rate">7.5</p>
+                                    <p class="releaseDate">22-12-2021</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="movie-card">
+                        <div class="posterMovie">
+                            <img src="doctor_strange_in_the_multiverse_of_madness_ver14.jpg" class="w-100" alt="">
+                            <div class="movieDetailes text-center">
+                                <div>
+                                    <h2 class="titleName">doctor string</h2>
+                                    <p class="overView">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quaerat repudiandae dignissimos est deserunt officiis obcaecati ipsam ab atque temporibus molestias, quia et voluptates possimus!</p>
+                                    <p class="rate">7.5</p>
+                                    <p class="releaseDate">22-12-2021</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="movie-card">
+                        <div class="posterMovie">
+                            <img src="doctor_strange_in_the_multiverse_of_madness_ver14.jpg" class="w-100" alt="">
+                            <div class="movieDetailes text-center">
+                                <div>
+                                    <h2 class="titleName">doctor string</h2>
+                                    <p class="overView">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quaerat repudiandae dignissimos est deserunt officiis obcaecati ipsam ab atque temporibus molestias, quia et voluptates possimus!</p>
+                                    <p class="rate">7.5</p>
+                                    <p class="releaseDate">22-12-2021</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+               </div>
+
+            </div>
+        </div>
+
+        <!-- section contact -->
+        <div class="contactUs" id="contact">
+            <div class="container w-85 p-5">
+                <h2 class="mb-5">ContacUs...</h2>
+                <div class="row gy-5 pb-3 text-white">
+                    <div class="col-md-6">
+                        <dive class="enterName">
+                            <input id="name" class=" newStyle mx-auto" placeholder="ُEnter Your Name">
+                            <div class="box-invalid" id="nameInvalied"><p class="p-2">invalied</p> </div>
+                        </dive>
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <div class="enterEmail enter">
+                            <input class="newStyle mx-auto" id="email" type="email"  placeholder="Enter Email">
+                            <div class="box-invalid" id="emialInvalied"><p class="p-2">invalied</p> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <dive class="enterAge enter">
+                            <input  id="age" type="number" class=" newStyle mx-auto" placeholder="Enter Age">
+                            <div class="box-invalid" id="ageInvalied"><p class="p-2">invalied</p> </div>
+                        </dive>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="enterPhone enter">
+                            <input class=" newStyle mx-auto" id="phone" pattern="^01[0-2]\d{1,8}$" placeholder="Enter Phone Number.">
+                            <div class="box-invalid" id="phoneInvalied"><p class="p-2">invalied</p> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <dive class="enterPass enter">
+                            <input type="number" type="password" class=" newStyle mx-auto" placeholder="Enter Password">
+                            <div class="box-invalid"><p class="p-2">invalied</p> </div>
+                        </dive>
+                    </div>
+                    <div class="col-md-6">
+                        <dive class="enterRePass enter">
+                            <input  type="password" class=" newStyle mx-auto" placeholder="Enter RePassword">
+                            <div class="box-invalid"><p class="p-2">invalied</p> </div>
+                        </dive>
+                    </div>
+                    
+                </div>
+                <button id="submit" type="submit" class="btn btn-outline-danger">submit</button>
+            </div>
+        </div>
+
+
+
+
+        
+
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

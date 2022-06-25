@@ -1,0 +1,171 @@
+*
+{
+	padding:0;
+	margin:0;
+	font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body
+{
+    background-color: #000000f2;
+    color: aliceblue;
+}
+input
+{
+    color: white;
+}
+a
+{
+    text-decoration: none;
+    color: aliceblue;
+    transition: all 0.6s ease;
+}
+a:hover
+{
+    color: #ff655c;
+}
+/* side bar */
+.contient-bar
+{
+    position: fixed;
+	top: 0;
+	left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    z-index: 333333;
+    /* transition: all 0.6s ease; */
+}
+.manu-bar p
+{
+    transition: all 0.6s ease;
+}
+.manu-bar p:hover
+{
+    color: #ff655c;
+}
+ul  
+{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+ul li 
+{   
+    display: inline-block;
+    padding: 0 10px 15px 0;
+    cursor: pointer;
+    transition:all 0.3s;
+}
+ul li:hover
+{
+    color: #ff655c;
+	
+}
+/* .manu-bar
+{
+    position: relative;
+    background-color: #721c24;
+    height: 100vh;
+} */
+.manuShowUp
+{
+   position: relative;
+    top: 120vh;
+    
+}
+.tools-bar
+{
+    position: fixed;
+    top: 0;
+    left: 250px;
+    background-color: white;
+    color: black;
+    width: 60px;
+    height: 100vh;
+    z-index: 333333;
+    background-color: #f8f6f6;
+    text-align: center;
+    /* trans    ition: all 0.6s ease; */
+    
+    
+}
+.manuShowUp
+{
+    cursor: pointer;
+}
+.tools-bar img
+{
+    width: 30px;
+    height: 40px;
+}
+.tools-bar .closeOpen
+{
+    cursor: pointer;
+}
+
+/* movie  */
+.posterMovie
+{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.movieDetailes
+{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.788);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    
+}
+.movie-card .posterMovie:hover .movieDetailes
+{
+    top:0;
+}
+.w-85
+{
+    width: 85%;
+}
+.newStyle
+{
+    background-color:#000000f2 ;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.movie-section input:hover
+{
+    background-color:#000000f2 !important;
+}
+.box-invalid
+{
+    width:100%;
+    color: #721c24;
+    background-color: #f8d7da;
+    display: none;
+}
